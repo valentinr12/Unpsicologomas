@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '625180807167197');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=625180807167197&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1006,7 +1023,7 @@ img { max-width: 100%; display: block; }
 <!-- ========== NAVBAR ========== -->
 <nav class="navbar" id="navbar">
   <a href="#" class="navbar-brand">[NOMBRE DEL CLIENTE]</a>
-  <a href="#calendario" class="btn-cta">Agendar sesión gratuita</a>
+  <a href="#calendario" class="btn-cta" onclick="fbq('track', 'Lead')">Agendar sesión gratuita</a>
 </nav>
 
 <!-- ========== HERO ========== -->
@@ -1025,7 +1042,7 @@ img { max-width: 100%; display: block; }
       Esto no es un curso. No vas a tener que estudiar ni sentarte a ver horas de contenido. El método <strong>'Al Reloj Lo Manejo Yo'</strong> está diseñado para psicólogos quemados: implementamos nosotros, vos recuperás tiempo desde la primera semana.
     </div>
     <!-- Botón 1 -->
-    <a href="#calendario" class="btn-cta btn-cta-lg">Agendar mi sesión estratégica gratuita</a>
+    <a href="#calendario" class="btn-cta btn-cta-lg" onclick="fbq('track', 'Lead')">Agendar mi sesión estratégica gratuita</a>
   </div>
 </section>
 
@@ -1074,7 +1091,7 @@ img { max-width: 100%; display: block; }
     </p>
     <!-- Botón 2 -->
     <div style="text-align: center;" class="reveal">
-      <a href="#calendario" class="btn-cta btn-cta-lg">Sí, quiero agendar mi sesión</a>
+      <a href="#calendario" class="btn-cta btn-cta-lg" onclick="fbq('track', 'Lead')">Sí, quiero agendar mi sesión</a>
     </div>
   </div>
 </section>
@@ -1143,7 +1160,7 @@ img { max-width: 100%; display: block; }
       Existe una forma de ejercer que no depende de intercambiar cada hora de tu vida por dinero. La oportunidad real es pasar de ser un terapeuta reactivo a convertirte en el <strong><span class="highlight-scroll">Director de tu propia Práctica Clínica</span></strong>. Un modelo basado en la disciplina y la evidencia, alejado del lenguaje de gurú y enfocado en resultados respaldados por una estructura sólida.
     </p>
     <!-- Botón 3 -->
-    <a href="#calendario" class="btn-cta btn-cta-lg reveal">Quiero ser parte</a>
+    <a href="#calendario" class="btn-cta btn-cta-lg reveal" onclick="fbq('track', 'Lead')">Quiero ser parte</a>
   </div>
 </section>
 
@@ -1269,7 +1286,7 @@ img { max-width: 100%; display: block; }
       Si querés recuperar tu autoridad profesional y llegar al final del día con resto mental para tu vida personal, agendá tu Sesión Estratégica de Crecimiento. En esta llamada gratuita vamos a analizar tu práctica actual para detectar qué está fallando y diseñar el plan de acción. Al final descubrirás cómo recuperar el mando de tu reloj, independientemente de si decidimos trabajar juntos después o no.
     </p>
     <!-- Botón 4 -->
-    <a href="#calendario" class="btn-cta btn-cta-lg reveal">Quiero recuperar mi tiempo</a>
+    <a href="#calendario" class="btn-cta btn-cta-lg reveal" onclick="fbq('track', 'Lead')">Quiero recuperar mi tiempo</a>
   </div>
 </section>
 
@@ -1287,11 +1304,10 @@ img { max-width: 100%; display: block; }
         style="width:100%;height:900px;border:none;overflow:hidden;"
         scrolling="no">
       </iframe>
-      <p class="calendario-placeholder"><i class="fa-regular fa-calendar"></i>&nbsp;&nbsp;Insertá aquí el link de tu calendario (Calendly, Cal.com, etc.)</p>
     </div>
     <!-- Botón 5 -->
     <div style="margin-top: 2.5rem;" class="reveal">
-      <a href="#calendario" class="btn-cta btn-cta-lg">Sí, arranco ahora</a>
+      <a href="#calendario" class="btn-cta btn-cta-lg" onclick="fbq('track', 'Lead')">Sí, arranco ahora</a>
     </div>
   </div>
 </section>
